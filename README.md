@@ -13,3 +13,7 @@
 2) Разделить элементы массива:
 
         string[] existArr = words.Split(", ");
+
+3) Проверить каждый элемент массива на соответствующий условию размер. В случае соответствия - записать в новый массив:
+
+        string[] resultArr = existArr.Where(words=>words.Length < 4).ToArray();
