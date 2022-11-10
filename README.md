@@ -17,3 +17,7 @@
 3) Проверить каждый элемент массива на соответствующий условию размер. В случае соответствия - записать в новый массив:
 
         string[] resultArr = existArr.Where(words=>words.Length < 4).ToArray();
+
+4) Вывести результат:
+
+        System.Console.WriteLine(String.Join(", ", resultArr));
