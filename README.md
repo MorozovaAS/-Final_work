@@ -9,3 +9,7 @@
         System.Console.WriteLine("Введите массив через запятую: ");
 
         string words = Console.ReadLine();
+
+2) Разделить элементы массива:
+
+        string[] existArr = words.Split(", ");
